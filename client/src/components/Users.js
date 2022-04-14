@@ -1,8 +1,6 @@
 import React from "react";
 
 function Users({ users }) {
-  //   const singleUser = users.map((user) => user);
-  //   console.log(singleUser[0]._id);
   return (
     <div className="users">
       {users.map((user) => {

@@ -26,7 +26,7 @@ function App() {
         age: user.age,
         userName: user.userName,
       });
-      console.log(response);
+      setUsers([...users, response.data]);
     } catch (error) {
       console.log(error);
     }
